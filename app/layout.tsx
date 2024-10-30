@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import ClientSessionProvider from "@/components/ClientSessionProvider";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import 'easymde/dist/easymde.min.css'
 
 const workSans = localFont({
   src: [
