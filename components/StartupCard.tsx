@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {Startup, Author} from "@/sanity/types";
 
+
 export type StartupTypeCard = Omit<Startup, "author"> & {author?: Author}
 
 

@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
     images: {
         domains: ["www.jsmastery.pro"], // Allowing external images from this domain
     },
+    experimantal: {
+        ppr: 'incremental'
+    },
+    devIndicators: {
+        appIsrStatus: true,
+        buildActivity: true,
+        buildActivityPosition: 'bottom-right'
+    }
 };
+
 
 export default nextConfig;
